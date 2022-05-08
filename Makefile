@@ -1,4 +1,4 @@
-APPLICATION := seeed-xiao-riot
+APPLICATION := tiny-riot
 BOARD ?= seeeduino_xiao
 RIOTBASE ?= $(CURDIR)/lib/riot
 
@@ -6,10 +6,13 @@ RIOTBASE ?= $(CURDIR)/lib/riot
 QUIET ?= 1
 QUIETER ?= 1
 
-# https://github.com/RIOT-OS/RIOT/issues/7140
-USEMODULE += src
-DIRS += $(CURDIR)/src
+EXTERNAL_PKG_DIRS += $(CURDIR)/pkg
+USEPKG += tiny
 
-# EXTERNAL_BOARD_DIRS can be used to defien board outside of RIOT's tree
+# https://github.com/RIOT-OS/RIOT/issues/7140
+DIRS += $(CURDIR)/src
+USEMODULE += src
+
+# EXTERNAL_BOARD_DIRS can be used to define board outside of RIOT's tree
 
 include $(RIOTBASE)/Makefile.include

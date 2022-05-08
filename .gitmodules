@@ -1,3 +1,6 @@
 [submodule "lib/riot"]
 	path = lib/riot
 	url = https://github.com/RIOT-OS/RIOT
+[submodule "pkg/tiny"]
+	path = pkg/tiny
+	url = https://github.com/ryanplusplus/riot-pkg-tiny

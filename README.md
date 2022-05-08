@@ -1,1 +1,1 @@
-# seeed-xiao-riot
+# tiny-riot

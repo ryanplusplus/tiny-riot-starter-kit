@@ -13,6 +13,8 @@ USEPKG += tiny
 DIRS += $(CURDIR)/src
 USEMODULE += src
 
+USEMODULE += xtimer
+
 # EXTERNAL_BOARD_DIRS can be used to define board outside of RIOT's tree
 
 include $(RIOTBASE)/Makefile.include

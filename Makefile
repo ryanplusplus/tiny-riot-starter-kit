@@ -2,7 +2,6 @@ APPLICATION := tiny-riot
 BOARD ?= seeeduino_xiao
 RIOTBASE ?= $(CURDIR)/lib/riot
 
-# USEMODULE += stdio_rtt
 QUIET ?= 1
 QUIETER ?= 1
 

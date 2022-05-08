@@ -1,1 +1,1 @@
-# nrf52-riot
+# seeed-xiao-riot

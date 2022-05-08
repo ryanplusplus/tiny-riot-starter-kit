@@ -5,9 +5,9 @@
 # directory for more details.
 
 config BOARD
-    default "seeeduino_xiao_no_boot_loader" if BOARD_SEEEDUINO_XIAO_NO_BOOT_LOADER
+    default "seeeduino_xiao" if BOARD_SEEEDUINO_XIAO
 
-config BOARD_SEEEDUINO_XIAO_NO_BOOT_LOADER
+config BOARD_SEEEDUINO_XIAO
     bool
     default y
     select CPU_MODEL_SAMD21G18A
@@ -22,3 +22,5 @@ config BOARD_SEEEDUINO_XIAO_NO_BOOT_LOADER
     select HAS_PERIPH_USBDEV
 
     select HAVE_SAUL_GPIO
+
+source "$(RIOTBOARD)/common/samdx1-arduino-bootloader/Kconfig"

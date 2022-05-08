@@ -1,5 +1,5 @@
 APPLICATION := tiny-riot
-BOARD ?= seeeduino_xiao_no_boot_loader
+BOARD ?= seeeduino_xiao
 RIOTBASE ?= $(CURDIR)/lib/riot
 
 PROGRAMMER ?= openocd

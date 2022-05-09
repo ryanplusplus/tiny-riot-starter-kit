@@ -4,3 +4,6 @@
 [submodule "pkg/tiny"]
 	path = pkg/tiny
 	url = https://github.com/ryanplusplus/riot-pkg-tiny
+[submodule "lib/samd21-svd"]
+	path = lib/samd21-svd
+	url = https://github.com/avrxml/svd

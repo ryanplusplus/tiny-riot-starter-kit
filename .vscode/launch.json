@@ -1,0 +1,19 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "seeeduino_xiao (jlink)",
+      "cwd": "${workspaceRoot}",
+      "executable": "${workspaceFolder}/bin/seeeduino_xiao/tiny-riot.elf",
+      "request": "launch",
+      "type": "cortex-debug",
+      "servertype": "jlink",
+      "device": "ATSAMD21G18",
+      "svdFile": "${workspaceFolder}/lib/samd21-svd/ATSAMD21G18A.svd",
+      "preLaunchTask": "seeeduino-xiao-debug-deps"
+    }
+  ]
+}

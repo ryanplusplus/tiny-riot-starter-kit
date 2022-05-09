@@ -10,7 +10,6 @@
 int main(void)
 {
   tiny_timer_group_t* timer_group = timer_group_init();
-
   heartbeat_led_init(timer_group);
 
   while(1) {

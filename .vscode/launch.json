@@ -12,7 +12,7 @@
       "type": "cortex-debug",
       "servertype": "jlink",
       "device": "ATSAMD21G18",
-      "svdFile": "${workspaceFolder}/lib/samd21-svd/ATSAMD21G18A.svd",
+      "svdFile": "${workspaceFolder}/boards/seeeduino_xiao/dist/ATSAMD21G18A.svd",
       "preLaunchTask": "seeeduino-xiao-debug-deps"
     }
   ]
